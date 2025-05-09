@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Skicket</string>
+    <string name="acas">Acasă</string>
+    <string name="bilete">Bilete</string>
+    <string name="informa_ii">Informații</string>
+    <string name="nume_prenume">Nume Prenume</string>
+    <string name="ultima_sincronizare_zz_ll_aaaa_ora_mm_ss">Ultima sincronizare: ZZ.LL.AAAA Ora:MM:SS</string>
+    <string name="status_skipass">Status Skipass</string>
+</resources>

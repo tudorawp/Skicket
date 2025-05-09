@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="acas">Acasă</string>
+    <string name="app_name">Skicket</string>
+    <string name="bilete">Bilete</string>
+    <string name="informa_ii">Informații</string>
+    <string name="nume_prenume">Nume Prenume</string>
+    <string name="status_skipass">Status Skipass</string>
+    <string name="ultima_sincronizare_zz_ll_aaaa_ora_mm_ss">Ultima sincronizare: ZZ.LL.AAAA Ora:MM:SS</string>
+    <style name="Theme.Skicket" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>

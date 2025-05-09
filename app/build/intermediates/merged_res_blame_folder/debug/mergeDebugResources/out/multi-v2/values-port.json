@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.skicket.app-mergeDebugResources-50:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Tudor\\.gradle\\caches\\8.11.1\\transforms\\97448e9b3ac8f2a8f8a0806cd3414a5e\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
