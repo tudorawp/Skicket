@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.skicket.app-mergeDebugResources-50:/values-v30/values-v30.xml",
+            "outputFile": "com.example.skicket.app-mergeDebugResources-51:/values-v30/values-v30.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tudor\\.gradle\\caches\\8.11.1\\transforms\\664ad1f910b6998b65557511d0192228\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "source": "C:\\Users\\Tudor\\.gradle\\caches\\8.11.1\\transforms\\9cfc046d0c491ea174c5ae0569f8fd36\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

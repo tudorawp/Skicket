@@ -17,10 +17,8 @@
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-        android:dataExtractionRules="@xml/data_extraction_rules"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -29,13 +27,19 @@
         android:theme="@style/Theme.Skicket" >
         <activity
             android:name="com.example.skicket.MainActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:theme="@style/Theme.Skicket" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.skicket.BuySkipassActivity" />
+        <activity android:name="com.example.skicket.TicketsActivity" />
+        <activity android:name="com.example.skicket.TicketDetailsActivity" />
+        <activity android:name="com.example.skicket.MoreOptionsActivity" />
+        <activity android:name="com.example.skicket.InfoActivity" />
         <activity
             android:name="androidx.compose.ui.tooling.PreviewActivity"
             android:exported="true" />

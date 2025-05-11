@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003A5A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="3"
+            android:background="#01579B"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/homeButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:text="@string/acasa"
+                android:textColor="#FFFFFF"
+                tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/ticketsButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#4CAF50"
+                android:text="@string/bilete"
+                android:textColor="#FFFFFF"
+                tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/infoButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#2196F3"
+                android:text="@string/informatii"
+                android:textColor="#FFFFFF"
+                tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#07549B"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cumpara_skipass"
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#07549B"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/skipassStatusTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/domeniu_schiabil_1"
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/skipassIcon"
+                android:layout_width="80dp"
+                android:layout_marginLeft="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/logoskiket"
+                tools:ignore="ContentDescription,DuplicateIds,RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#07549B"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/skipassStatusTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/domeniu_schiabil_2"
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/skipassIcon"
+                android:layout_width="80dp"
+                android:layout_marginLeft="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/logoskiket"
+                tools:ignore="ContentDescription,DuplicateIds,RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#07549B"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/skipassStatusTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/domeniu_schiabil_3"
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/skipassIcon"
+                android:layout_width="80dp"
+                android:layout_marginLeft="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/logoskiket"
+                tools:ignore="ContentDescription,DuplicateIds" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#07549B"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/skipassStatusTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/domeniu_schiabil_4"
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/skipassIcon"
+                android:layout_width="80dp"
+                android:layout_marginLeft="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/logoskiket" android:background="@color/white"
+                tools:ignore="ContentDescription,DuplicateIds" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="225dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/logoskiket"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+</ScrollView>

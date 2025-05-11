@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profil" />
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Setări" />
+    <item
+        android:id="@+id/nav_about"
+        android:title="Despre aplicație" />
+</menu>

@@ -7,4 +7,23 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Culori pentru fundal -->
+    <color name="dark_blue_background">#003A5A</color>
+    <color name="medium_blue_background">#01579B</color>
+    <color name="section_background">#07549B</color>
+
+    <!-- Culori pentru text -->
+    <color name="light_blue_text">#BBDEFB</color>
+    <color name="grey_text">#AAAAAA</color>
+
+    <!-- Culori pentru butoane (exemple) -->
+    <color name="orange_button">#FF9800</color>
+    <color name="green_button">#4CAF50</color>
+    <color name="blue_button">#2196F3</color>
+    <color name="button_tint_blue">#0288D1</color>
+
+    <!-- <color name="white">#FFFFFF</color> -->
+
+    <!-- <color name="black">#000000</color> -->
 </resources>

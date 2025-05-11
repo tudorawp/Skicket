@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.skicket.app-mergeDebugResources-50:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.example.skicket.app-mergeDebugResources-51:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tudor\\.gradle\\caches\\8.11.1\\transforms\\97448e9b3ac8f2a8f8a0806cd3414a5e\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\Tudor\\.gradle\\caches\\8.11.1\\transforms\\c1bb88ec6de368e30588329b02719228\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

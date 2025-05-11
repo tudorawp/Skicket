@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#003A5A">
@@ -12,99 +14,115 @@
 
         <!-- Meniu sus -->
         <LinearLayout
+            style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:baselineAligned="false"
             android:orientation="horizontal"
             android:gravity="center"
-            android:weightSum="3"
             android:background="#01579B"
             android:padding="16dp">
 
-            <Button
-                android:id="@+id/homeButton"
+            <LinearLayout
+                android:layout_weight="0.33"
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Acasă"
-                android:textColor="#FFFFFF"
-                android:background="@android:color/transparent"
-                /> <!-- Înlocuiește cu un icon existent -->
+                android:background="#FF9800">
 
-            <Button
-                android:id="@+id/ticketsButton"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:text="Bilete"
-                android:textColor="#FFFFFF"
-                android:background="@android:color/transparent" />
+                <Button
+                    android:id="@+id/homeButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="Mai Multe"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+            </LinearLayout>
 
-            <Button
-                android:id="@+id/infoButton"
+            <LinearLayout
+                android:layout_weight="0.33"
                 android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:text="Informații"
                 android:textColor="#FFFFFF"
-                android:background="@android:color/transparent" />
+                android:layout_height="wrap_content"
+                android:background="#4CAF50">
+
+                <Button
+                    android:id="@+id/ticketsButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="Bilete"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="0.33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#2196F3">
+
+                <Button
+                    android:id="@+id/infoButton"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="@string/informa_iii"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
         </LinearLayout>
 
-        <!-- Informații utilizator -->
+        <!-- Info utilizator -->
         <TextView
             android:id="@+id/userNameTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:text="Nume Prenume"
+            android:text="@string/nume_prenume1"
             android:textColor="#BBDEFB"
-            android:textSize="22sp" />
+            android:textSize="22sp"
+            android:paddingTop="16dp" />
 
         <TextView
             android:id="@+id/lastSyncTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:text="Ultima sincronizare: ZZ.LL.AAAA Ora:MM:SS"
+            android:text="@string/ultima_sincronizare_zz_ll_aaaa_ora_mm_sss"
             android:textColor="#AAAAAA"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp" />
 
         <!-- Status skipass -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:padding="16dp"
-            android:background="#07549B">
+            android:layout_marginBottom="16dp"
+            android:background="#01579B">
 
-            <ImageView
-                android:id="@+id/skipassIcon"
-                android:layout_width="36dp"
-                android:layout_height="36dp" />
+            <TextView
+                android:id="@+id/skipassStatusTitle"
+                android:layout_width="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_height="48dp"
+                android:text="@string/status_skipass1"
+                android:textColor="#BBDEFB"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-            <LinearLayout
-                android:orientation="vertical"
+            <TextView
+                android:id="@+id/skipassCountTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp">
-
-                <TextView
-                    android:id="@+id/skipassStatusTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Status skipass"
-                    android:textColor="#BBDEFB"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/skipassCountTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="0 skipass-uri active"
-                    android:textColor="#FFFFFF"
-                    android:textSize="16sp" />
-            </LinearLayout>
+                android:text="@string/_0_skipass_uri_active"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
         </LinearLayout>
 
         <!-- Meniu rapid -->
@@ -112,7 +130,7 @@
             android:id="@+id/quickMenuTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Meniu rapid"
+            android:text="@string/meniu_rapid"
             android:textColor="#BBDEFB"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -121,31 +139,30 @@
         <Button
             android:id="@+id/buySkipassButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Cumpără skipass"
-            android:textColor="#FFFFFF"
-            android:layout_marginTop="8dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
             android:backgroundTint="#0288D1"
-            /> <!-- Icon propriu -->
+            android:text="@string/cump_r_skipass"
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/transactionHistoryButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Istoric tranzacții"
-            android:textColor="#FFFFFF"
+            android:layout_height="77dp"
             android:layout_marginTop="8dp"
             android:backgroundTint="#0288D1"
-            /> <!-- Icon propriu -->
+            android:text="@string/istoric_tranzac_ii"
+            android:textColor="#000000"
+            tools:ignore="VisualLintButtonSize" />
 
-        <!-- Logo -->
-        <ImageView
-            android:id="@+id/logoImageView"
-            android:layout_width="225dp"
-            android:layout_height="175dp"
+        <!-- Logo (placeholder fără imagine) -->
+        <TextView
+            android:layout_width="364dp"
+            android:layout_height="360dp"
             android:layout_gravity="center"
-            android:layout_marginTop="24dp"
-            android:src="@drawable/logoskiket" /> <!-- Asigură-te că ai logoul în /drawable -->
-
+            android:layout_marginTop="0dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:drawableTopCompat="@drawable/logoskiket" />
     </LinearLayout>
 </ScrollView>

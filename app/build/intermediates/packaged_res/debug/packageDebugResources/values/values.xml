@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="blue_button">#2196F3</color>
+    <color name="button_tint_blue">#0288D1</color>
+    <color name="dark_blue_background">#003A5A</color>
+    <color name="green_button">#4CAF50</color>
+    <color name="grey_text">#AAAAAA</color>
+    <color name="light_blue_text">#BBDEFB</color>
+    <color name="medium_blue_background">#01579B</color>
+    <color name="orange_button">#FF9800</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
+    <color name="section_background">#07549B</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="_0_skipass_uri_active">0 skipass-uri active</string>
     <string name="acas">Acasă</string>
+    <string name="acasa">Acasă</string>
+    <string name="aceasta_este_o_sec_iune_temporar">Aceasta este o secțiune temporară.</string>
     <string name="app_name">Skicket</string>
+    <string name="back">← Back</string>
     <string name="bilete">Bilete</string>
+    <string name="biletele_mele">Biletele mele</string>
+    <string name="biletele_mele1">Biletele mele</string>
+    <string name="cump_r_skipass">Cumpără skipass</string>
+    <string name="cumpara_skipass">Cumpară skipass</string>
+    <string name="data_11_mai_2025">Data: 11 mai 2025</string>
+    <string name="domeniu_schiabil_1">Domeniu schiabil #1</string>
+    <string name="domeniu_schiabil_2">Domeniu schiabil #2</string>
+    <string name="domeniu_schiabil_3">Domeniu schiabil #3</string>
+    <string name="domeniu_schiabil_4">Domeniu schiabil #4</string>
     <string name="informa_ii">Informații</string>
+    <string name="informa_iii">Informații</string>
+    <string name="informatii">Informatii\n</string>
+    <string name="istoric_tranzac_ii">Istoric tranzacții</string>
+    <string name="logo_skicket">LOGO SKICKET</string>
+    <string name="meniu_rapid">Meniu rapid</string>
+    <string name="my_tickets_title">Biletele mele</string>
     <string name="nume_prenume">Nume Prenume</string>
+    <string name="nume_prenume1">Nume Prenume</string>
+    <string name="skipass_poiana_bra_ov">Skipass – Poiana Brașov</string>
+    <string name="status_activ">Status: Activ</string>
     <string name="status_skipass">Status Skipass</string>
+    <string name="status_skipass1">Status skipass</string>
+    <string name="temporary_message"/>
+    <string name="tip_1_zi_adult">Tip: 1 zi – Adult</string>
+    <string name="title_buy_skipass">Buy Skipass</string>
     <string name="ultima_sincronizare_zz_ll_aaaa_ora_mm_ss">Ultima sincronizare: ZZ.LL.AAAA Ora:MM:SS</string>
-    <style name="Theme.Skicket" parent="android:Theme.Material.Light.NoActionBar"/>
+    <string name="ultima_sincronizare_zz_ll_aaaa_ora_mm_sss">Ultima sincronizare: ZZ.LL.AAAA Ora:MM:SS</string>
+    <style name="Theme.Skicket" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
 </resources>

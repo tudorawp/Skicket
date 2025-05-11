@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003A5A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+         <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#01579B"
+            android:padding="16dp">
+
+             <LinearLayout
+                android:layout_weight="0.33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#FF9800">
+                 <Button
+                     android:id="@+id/homeButton"
+                     style="?android:attr/buttonBarButtonStyle"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:background="@android:color/transparent"
+                     android:text="Mai Multe"
+                     android:textColor="#FFFFFF"
+                     tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+             <LinearLayout
+                android:layout_weight="0.33"
+                android:layout_width="0dp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:background="#4CAF50">
+                 <Button
+                     android:id="@+id/ticketsButton"
+                     style="?android:attr/buttonBarButtonStyle"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:background="@android:color/transparent"
+                     android:text="Bilete"
+                     android:textColor="#FFFFFF"
+                     tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+             <LinearLayout
+                android:layout_weight="0.33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#2196F3">
+                 <Button
+                     android:id="@+id/infoButton"
+                     style="?android:attr/buttonBarButtonStyle"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:background="@android:color/transparent"
+                     android:text="@string/informa_iii"
+                     android:textColor="#FFFFFF"
+                     tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#07549B"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/skipassStatusTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="#Tip de bilet#"
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/skipassStatusTitle7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Valabil de la:"
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/skipassStatusTitle7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ZZ.LL.AAAA Ora: HH:MM"
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/skipassStatusTitle7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Valabil pana la:"
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/skipassStatusTitle7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ZZ.LL.AAAA Ora: HH:MM"
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/ticketsButton2"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#07549B"
+            android:text="COD QR"
+            android:textColor="#FFFFFF"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/ticketsButton2"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#07549B"
+            android:text="LOGO/EMBLEMA"
+            android:textColor="#FFFFFF"
+            tools:ignore="DuplicateIds,VisualLintButtonSize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#07549B"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/skipassStatusTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inainte de a valida biletul, asigura-te ca:"
+                    android:textColor="#BBDEFB"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds" />
+                <TextView
+                    android:id="@+id/skipassStatusTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.  Ai NFC activat pe dispozitiv."
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+                <TextView
+                    android:id="@+id/skipassStatusTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.  NU ai distribuit la alte persoane biletul."
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+                <TextView
+                    android:id="@+id/skipassStatusTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3.  Biletul nu este in afara termenului de valabilitate."
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+                <TextView
+                    android:id="@+id/skipassStatusTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.  Nu ai alte skipassuri care impiedica scannerul la conexiunea NFC dintre dispozitiv si scanner. (Pentru o citire clara si rapida)"
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+                <TextView
+                    android:id="@+id/skipassStatusTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5.  Au trecut minim 5 minute de la ultima scanare."
+                    android:textColor="#BBDEFB"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
