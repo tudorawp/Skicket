@@ -40,6 +40,8 @@
         <activity android:name="com.example.skicket.TicketDetailsActivity" />
         <activity android:name="com.example.skicket.MoreOptionsActivity" />
         <activity android:name="com.example.skicket.InfoActivity" />
+        <activity android:name="com.example.skicket.HistoryActivity" />
+        <activity android:name="com.example.skicket.SkidomainActivity" />
         <activity
             android:name="androidx.compose.ui.tooling.PreviewActivity"
             android:exported="true" />

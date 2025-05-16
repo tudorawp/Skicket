@@ -24,7 +24,7 @@
             android:id="@+id/creditsText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="✔️ Aplicația a fost realizată de: Numele tău\n\n✔️ Sponsori: Exemplu SRL, AltSponsor Inc.\n\n✔️ Colaboratori: Nume colegi sau mentori"
+            android:text="✔️ Aplicația a fost realizată de: \n Iacătă Tudor Alexandru\nCioponea Alexandru Dumitru\n\n✔️ Colaboratori: Domeniul Schiabil Azuga; D.S Brasov; D.S Sinaia; D.S Straja\n\n✔️ Sponsori: Google, etc"
             android:textColor="#BBDEFB"
             android:textSize="18sp"
             android:lineSpacingExtra="8dp" />

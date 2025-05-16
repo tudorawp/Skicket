@@ -94,22 +94,22 @@
             android:padding="16dp">
 
 
-            <LinearLayout
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/domeniuSchiabil1Button"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:orientation="vertical">
+                android:layout_weight="1"
+                android:background="#07549B"
+                android:text="@string/domeniu_schiabil_1"
+                android:textColor="#BBDEFB"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="start|center_vertical"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                tools:ignore="ButtonStyle" />
 
 
-                <TextView
-                    android:id="@+id/skipassStatusTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/domeniu_schiabil_1"
-                    android:textColor="#BBDEFB"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
 
 
             <ImageView
@@ -131,23 +131,22 @@
             android:padding="16dp">
 
 
-            <LinearLayout
+            <Button
+                android:id="@+id/domeniuSchiabil2Button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#07549B"
+                android:text="@string/domeniu_schiabil_2"
+                android:textColor="#BBDEFB"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="start|center_vertical"
                 android:layout_marginStart="12dp"
-                android:orientation="vertical">
+                android:paddingStart="0dp"
+                android:paddingEnd="12dp"
+                tools:ignore="ButtonStyle,DuplicateIds" />
 
-
-                <TextView
-                    android:id="@+id/skipassStatusTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/domeniu_schiabil_2"
-                    android:textColor="#BBDEFB"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    tools:ignore="DuplicateIds" />
-            </LinearLayout>
 
 
             <ImageView
@@ -169,23 +168,21 @@
             android:padding="16dp">
 
 
-            <LinearLayout
+            <Button
+                android:id="@+id/domeniuSchiabil3Button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#07549B"
+                android:text="@string/domeniu_schiabil_3"
+                android:textColor="#BBDEFB"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="start|center_vertical"
                 android:layout_marginStart="12dp"
-                android:orientation="vertical">
-
-
-                <TextView
-                    android:id="@+id/skipassStatusTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/domeniu_schiabil_3"
-                    android:textColor="#BBDEFB"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    tools:ignore="DuplicateIds" />
-            </LinearLayout>
+                android:paddingStart="0dp"
+                android:paddingEnd="12dp"
+                tools:ignore="ButtonStyle,DuplicateIds" />
 
 
             <ImageView
@@ -207,23 +204,22 @@
             android:padding="16dp">
 
 
-            <LinearLayout
+            <Button
+                android:id="@+id/domeniuSchiabil4Button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#07549B"
+                android:text="@string/domeniu_schiabil_4"
+                android:textColor="#BBDEFB"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="start|center_vertical"
                 android:layout_marginStart="12dp"
-                android:orientation="vertical">
+                android:paddingStart="0dp"
+                android:paddingEnd="12dp"
+                tools:ignore="ButtonStyle,DuplicateIds" />
 
-
-                <TextView
-                    android:id="@+id/skipassStatusTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/domeniu_schiabil_4"
-                    android:textColor="#BBDEFB"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    tools:ignore="DuplicateIds" />
-            </LinearLayout>
 
 
             <ImageView

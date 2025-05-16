@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003A5A"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/domainNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numele domeniului schiabil"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dateStartText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valabil de la:"
+            android:textColor="#BBDEFB"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/dateEndText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valabil pana la:"
+            android:textColor="#BBDEFB"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ticketTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tip bilet"
+            android:textColor="#BBDEFB"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/ticketIdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID bilet"
+            android:textColor="#FFC107"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/backToBuyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#0288D1"
+            android:text="Înapoi"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

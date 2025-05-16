@@ -2,6 +2,7 @@
 package com.example.skicket
 // Asigură-te că pachetul este corect
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
 import android.os.Bundle
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var buySkipassButton: Button
     private lateinit var transactionHistoryButton: Button
 
+    @SuppressLint("CutPasteId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // Setează layout-ul pentru MainActivity
@@ -64,6 +66,11 @@ class MainActivity : AppCompatActivity() {
             // finish()
         }
 
+        transactionHistoryButton.setOnClickListener {
+            val intent = Intent(this, HistoryActivity::class.java)
+            startActivity(intent)
+        }
+
         // Exemple de alți listeneri (adaptă-i nevoilor tale)
         skipassStatusTitle.setOnClickListener {
             // Exemplu: dacă vrei ca și titlul Status Skipass să ducă la ecranul de bilete
@@ -77,6 +84,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, TicketsActivity::class.java)
             startActivity(intent)
         }
+
         homeButton.setOnClickListener { /* Acțiuni pentru Acasă */
             val infoButton = findViewById<Button>(R.id.infoButton)
             infoButton.setOnClickListener {
@@ -107,22 +115,12 @@ class MainActivity : AppCompatActivity() {
             // finish() // Opțional
         }
 
-        transactionHistoryButton.setOnClickListener { /* Acțiuni pentru istoric */
-            Log.d("MainActivity", "Butonul Istoric Tranzacții a fost apăsat.")
-            // Exemplu: pornește TransactionHistoryActivity
-            // val intent = Intent(this, TransactionHistoryActivity::class.java)
-            // startActivity(intent)
-            // finish() // Opțional
-        }
-
         val moreButton = findViewById<Button>(R.id.homeButton) // acesta este "Mai Multe"
  moreButton.setOnClickListener {
  val intent = Intent(this, MoreOptionsActivity::class.java)
             startActivity(intent)
         }
         // *********************************************************
-
     }
-
     // Poți adăuga aici și alte metode necesare pentru MainActivity
 }

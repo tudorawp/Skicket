@@ -743,6 +743,8 @@ int id always 0x7f08003c
 int id androidx_compose_ui_view_composition_context 0x7f08003d
 int id async 0x7f08003e
 int id backButton 0x7f08003f
+int id backToBuyButton 0x7f0800e4
+int id backToHomeButton 0x7f0800da
 int id backToMainButton 0x7f0800d7
 int id beginning 0x7f080040
 int id blocking 0x7f080041
@@ -761,10 +763,17 @@ int id contentPanel 0x7f08004d
 int id creditsText 0x7f0800d8
 int id custom 0x7f08004e
 int id customPanel 0x7f08004f
+int id dateEndText 0x7f0800db
+int id dateStartText 0x7f0800dc
 int id decor_content_parent 0x7f080050
 int id default_activity_button 0x7f080051
 int id dialog_button 0x7f080052
 int id disableHome 0x7f080053
+int id domainNameText 0x7f0800dd
+int id domeniuSchiabil1Button 0x7f0800e0
+int id domeniuSchiabil2Button 0x7f0800e1
+int id domeniuSchiabil3Button 0x7f0800e2
+int id domeniuSchiabil4Button 0x7f0800e3
 int id edit_query 0x7f080054
 int id edit_text_id 0x7f080055
 int id end 0x7f080056
@@ -872,9 +881,11 @@ int id textSpacerNoButtons 0x7f0800b5
 int id textSpacerNoTitle 0x7f0800b6
 int id ticketCard 0x7f0800cc
 int id ticketDate 0x7f0800cd
+int id ticketIdText 0x7f0800de
 int id ticketStatus 0x7f0800ce
 int id ticketTitle 0x7f0800cf
 int id ticketType 0x7f0800d0
+int id ticketTypeText 0x7f0800df
 int id ticketsButton 0x7f0800b7
 int id ticketsButton2 0x7f0800d2
 int id time 0x7f0800b8
@@ -943,6 +954,7 @@ int layout activity_history 0x7f0b001d
 int layout activity_info 0x7f0b001e
 int layout activity_main 0x7f0b001f
 int layout activity_more_options 0x7f0b002f
+int layout activity_skidomain 0x7f0b0030
 int layout activity_ticket_details 0x7f0b002e
 int layout activity_tickets 0x7f0b0020
 int layout custom_dialog 0x7f0b0021
@@ -1023,6 +1035,7 @@ int string informa_ii 0x7f0d0037
 int string informa_iii 0x7f0d0038
 int string informatii 0x7f0d0039
 int string istoric_tranzac_ii 0x7f0d003a
+int string istoric_tranzac_ii1 0x7f0d0094
 int string logo_skicket 0x7f0d003b
 int string m3c_bottom_sheet_collapse_description 0x7f0d003c
 int string m3c_bottom_sheet_dismiss_description 0x7f0d003d

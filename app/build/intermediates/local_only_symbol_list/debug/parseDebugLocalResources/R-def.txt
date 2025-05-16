@@ -24,9 +24,18 @@ drawable ic_launcher_foreground
 drawable ic_ski
 drawable logoskiket
 id backButton
+id backToBuyButton
+id backToHomeButton
 id backToMainButton
 id buySkipassButton
 id creditsText
+id dateEndText
+id dateStartText
+id domainNameText
+id domeniuSchiabil1Button
+id domeniuSchiabil2Button
+id domeniuSchiabil3Button
+id domeniuSchiabil4Button
 id homeButton
 id infoButton
 id infoTitle
@@ -44,9 +53,11 @@ id skipassStatusTitle7
 id temporaryText
 id ticketCard
 id ticketDate
+id ticketIdText
 id ticketStatus
 id ticketTitle
 id ticketType
+id ticketTypeText
 id ticketsButton
 id ticketsButton2
 id transactionHistoryButton
@@ -56,6 +67,7 @@ layout activity_history
 layout activity_info
 layout activity_main
 layout activity_more_options
+layout activity_skidomain
 layout activity_ticket_details
 layout activity_tickets
 menu drawer_menu
@@ -81,6 +93,7 @@ string informa_ii
 string informa_iii
 string informatii
 string istoric_tranzac_ii
+string istoric_tranzac_ii1
 string logo_skicket
 string meniu_rapid
 string my_tickets_title
