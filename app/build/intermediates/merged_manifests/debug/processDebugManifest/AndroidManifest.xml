@@ -42,6 +42,7 @@
         <activity android:name="com.example.skicket.InfoActivity" />
         <activity android:name="com.example.skicket.HistoryActivity" />
         <activity android:name="com.example.skicket.SkidomainActivity" />
+        <activity android:name="com.example.skicket.DomainTicketActivity" />
         <activity
             android:name="androidx.compose.ui.tooling.PreviewActivity"
             android:exported="true" />

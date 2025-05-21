@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "name": "Poiana Brașov",
+    "validFrom": "03.01.2025 08:30",
+    "validTo": "03.01.2025 17:00",
+    "ticketType": "Bilet pe zi",
+    "ticketId": "PB8F3KD7LZQ2",
+    "lifts": ["Gondola Express", "Teleski Lupului", "Telescaun Kanzel"]
+  },
+  {
+    "id": "2",
+    "name": "Transalpina",
+    "validFrom": " 09:00",
+    "validTo": " 16:00",
+    "ticketType": "Bilet pe zi",
+    "ticketId": "TA9V1XW8CM4B",
+    "lifts": ["Telescaun A", "Teleski C"]
+  },
+  {
+    "id": "3",
+    "name": "Rânca",
+    "validFrom": "01.03.2025",
+    "validTo": "Până la epuizarea punctelor",
+    "ticketType": "Bilet pe puncte (100)",
+    "ticketId": "RC4Y7JP2XMN1",
+    "lifts": ["Telescaun", "Teleski copii", "Baby lift"]
+  }
+]

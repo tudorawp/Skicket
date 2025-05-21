@@ -27,6 +27,6 @@
         <activity android:name=".InfoActivity" />
         <activity android:name=".HistoryActivity" />
         <activity android:name=".SkidomainActivity" />
-
+        <activity android:name=".DomainTicketActivity" />
     </application>
 </manifest>

@@ -11,7 +11,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-
+        <!-- Meniu Sus -->
         <LinearLayout
             style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
@@ -31,7 +31,7 @@
                 android:background="#FF9800"
                 android:text="@string/acasa"
                 android:textColor="#FFFFFF"
-                tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+                tools:ignore="TextContrastCheck" />
 
             <Button
                 android:id="@+id/ticketsButton"
@@ -42,7 +42,7 @@
                 android:background="#4CAF50"
                 android:text="@string/bilete"
                 android:textColor="#FFFFFF"
-                tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+                tools:ignore="TextContrastCheck" />
 
             <Button
                 android:id="@+id/infoButton"
@@ -53,185 +53,28 @@
                 android:background="#2196F3"
                 android:text="@string/informatii"
                 android:textColor="#FFFFFF"
-                tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+                tools:ignore="TextContrastCheck" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <!-- Titlu -->
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="#07549B"
-            android:orientation="horizontal"
-            android:padding="16dp">
+            android:text="@string/cumpara_skipass"
+            android:textColor="#BBDEFB"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:orientation="vertical"
-                tools:ignore="UselessParent">
-
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/cumpara_skipass"
-                    android:textColor="#BBDEFB"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-        </LinearLayout>
-
+        <!-- Container pentru domenii schiabile generate din JSON -->
         <LinearLayout
+            android:id="@+id/skiDomainsContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="#07549B"
-            android:orientation="horizontal"
-            android:padding="16dp">
+            android:orientation="vertical"
+            android:layout_marginTop="16dp" />
 
-
-            <Button
-                android:id="@+id/domeniuSchiabil1Button"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#07549B"
-                android:text="@string/domeniu_schiabil_1"
-                android:textColor="#BBDEFB"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:gravity="start|center_vertical"
-                android:paddingStart="12dp"
-                android:paddingEnd="12dp"
-                tools:ignore="ButtonStyle" />
-
-
-
-
-            <ImageView
-                android:id="@+id/skipassIcon"
-                android:layout_width="80dp"
-                android:layout_marginLeft="70dp"
-                android:layout_height="80dp"
-                android:src="@drawable/logoskiket"
-                tools:ignore="ContentDescription,DuplicateIds,RtlHardcoded" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="#07549B"
-            android:orientation="horizontal"
-            android:padding="16dp">
-
-
-            <Button
-                android:id="@+id/domeniuSchiabil2Button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#07549B"
-                android:text="@string/domeniu_schiabil_2"
-                android:textColor="#BBDEFB"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:gravity="start|center_vertical"
-                android:layout_marginStart="12dp"
-                android:paddingStart="0dp"
-                android:paddingEnd="12dp"
-                tools:ignore="ButtonStyle,DuplicateIds" />
-
-
-
-            <ImageView
-                android:id="@+id/skipassIcon"
-                android:layout_width="80dp"
-                android:layout_marginLeft="70dp"
-                android:layout_height="80dp"
-                android:src="@drawable/logoskiket"
-                tools:ignore="ContentDescription,DuplicateIds,RtlHardcoded" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="#07549B"
-            android:orientation="horizontal"
-            android:padding="16dp">
-
-
-            <Button
-                android:id="@+id/domeniuSchiabil3Button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#07549B"
-                android:text="@string/domeniu_schiabil_3"
-                android:textColor="#BBDEFB"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:gravity="start|center_vertical"
-                android:layout_marginStart="12dp"
-                android:paddingStart="0dp"
-                android:paddingEnd="12dp"
-                tools:ignore="ButtonStyle,DuplicateIds" />
-
-
-            <ImageView
-                android:id="@+id/skipassIcon"
-                android:layout_width="80dp"
-                android:layout_marginLeft="70dp"
-                android:layout_height="80dp"
-                android:src="@drawable/logoskiket"
-                tools:ignore="ContentDescription,DuplicateIds" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="#07549B"
-            android:orientation="horizontal"
-            android:padding="16dp">
-
-
-            <Button
-                android:id="@+id/domeniuSchiabil4Button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#07549B"
-                android:text="@string/domeniu_schiabil_4"
-                android:textColor="#BBDEFB"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:gravity="start|center_vertical"
-                android:layout_marginStart="12dp"
-                android:paddingStart="0dp"
-                android:paddingEnd="12dp"
-                tools:ignore="ButtonStyle,DuplicateIds" />
-
-
-
-            <ImageView
-                android:id="@+id/skipassIcon"
-                android:layout_width="80dp"
-                android:layout_marginLeft="70dp"
-                android:layout_height="80dp"
-                android:src="@drawable/logoskiket" android:background="@color/white"
-                tools:ignore="ContentDescription,DuplicateIds" />
-
-        </LinearLayout>
-
+        <!-- Logo -->
         <ImageView
             android:id="@+id/logoImageView"
             android:layout_width="225dp"

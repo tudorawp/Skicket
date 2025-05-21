@@ -6,63 +6,108 @@
     android:padding="16dp">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/domainNameText"
-            android:layout_width="wrap_content"
+        <!-- Toolbar cu titlu -->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Numele domeniului schiabil"
+            android:orientation="horizontal"
+            android:background="#111111"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/menuButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="≡"
+                android:textSize="20sp"
+                android:background="@android:color/transparent"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/domainNameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Domeniu Schiabil"
+                android:textColor="#87CEFA"
+                android:textSize="24sp"
+                android:paddingStart="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Informații utile și locație -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Informații utile:"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:background="#111111"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/locationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Locație"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#CCFF33"
+                android:textColor="#111111"
+                android:padding="8dp"
+                android:layout_marginStart="12dp" />
+        </LinearLayout>
+
+        <!-- Perioadă funcționare -->
+        <TextView
+            android:id="@+id/operatingPeriodText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valabil: --"
+            android:textColor="#87CEFA"
+            android:textSize="18sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Titlu instalații -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instalații disponibile:"
             android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
 
-        <TextView
-            android:id="@+id/dateStartText"
-            android:layout_width="wrap_content"
+        <!-- Container pentru instalații -->
+        <LinearLayout
+            android:id="@+id/liftListContainer"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Valabil de la:"
-            android:textColor="#BBDEFB"
-            android:textSize="18sp"
-            android:layout_marginTop="12dp" />
+            android:orientation="vertical"
+            android:layout_marginTop="8dp" />
 
-        <TextView
-            android:id="@+id/dateEndText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Valabil pana la:"
-            android:textColor="#BBDEFB"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/ticketTypeText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tip bilet"
-            android:textColor="#BBDEFB"
-            android:textSize="18sp"
-            android:layout_marginTop="12dp" />
-
-        <TextView
-            android:id="@+id/ticketIdText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="ID bilet"
-            android:textColor="#FFC107"
-            android:textSize="16sp"
-            android:layout_marginTop="12dp" />
-
+        <!-- Buton înapoi -->
         <Button
             android:id="@+id/backToBuyButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:backgroundTint="#0288D1"
-            android:text="Înapoi"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:background="#CCFF33"
+            android:text="BILETE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#111111" />
 
     </LinearLayout>
 </ScrollView>

@@ -158,6 +158,10 @@ activity#com.example.skicket.SkidomainActivity
 ADDED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:29:9-55
 	android:name
 		ADDED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:29:19-52
+activity#com.example.skicket.DomainTicketActivity
+ADDED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:30:9-58
+	android:name
+		ADDED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:30:19-55
 uses-sdk
 INJECTED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml
