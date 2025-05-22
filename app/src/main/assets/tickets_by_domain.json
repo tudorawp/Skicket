@@ -1,0 +1,69 @@
+[
+  {
+    "domainName": "Poiana Brașov",
+    "tickets": [
+      {
+        "title": "BILET SKIPASS CU PUNCTE",
+        "description": [
+          "• Bilete de adult, copii, elev, student",
+          "• 5/10% reducere la bilet adult cumpărat cu minim 6/11 zile anticipate",
+          "• Posibile reduceri pentru anumite categorii"
+        ],
+        "type": "puncte"
+      },
+      {
+        "title": "BILET SKIPASS PENTRU UN INTERVAL DE TIMP",
+        "description": [
+          "• Bilete de adult, copii, elev, student",
+          "• 5/10% reducere la bilet adult cumpărat cu minim 6/11 zile anticipate",
+          "• Posibile reduceri pentru anumite categorii",
+          "Aici se pot achiziționa skipass-uri pentru mai multe zile"
+        ],
+        "type": "interval"
+      }
+    ]
+  },
+  {
+    "domainName": "Transalpina",
+    "tickets": [
+      {
+        "title": "SKIPASS ZILNIC",
+        "description": [
+          "• Acces nelimitat în ziua achiziției",
+          "• Tarif fix pentru toți vizitatorii"
+        ],
+        "type": "zi"
+      }
+    ]
+  },
+  {
+    "domainName": "Rânca",
+    "tickets": [
+      {
+        "title": "SKIPASS ZI",
+        "description": ["Pentru intervalele de timp: 08.00 - 17.00"],
+        "type": "Zi"
+      },
+      {
+        "title": "SKIPASS NOAPTE",
+        "description": ["Skipass Noapte este valabil pentru intervalele de timp : 17.30 - 21.00"],
+        "type": "Noapte"
+      }
+    ]
+  },
+  {
+    "domainName": "Azuga",
+    "tickets": [
+      {
+        "title": "SKIPASS Interval de timp",
+        "description": ["Pentru intervalele de timp: 09.00 - 17.00"],
+        "type": "Interval de timp"
+      },
+      {
+        "title": "SKIPASS Cu Puncte",
+        "description": ["Skipass pe Puncte este valabil intre orele 09.00 - 16.30"],
+        "type": "Cu Puncte"
+      }
+    ]
+  }
+]

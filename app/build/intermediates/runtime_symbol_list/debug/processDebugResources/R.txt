@@ -849,8 +849,10 @@ int id showHome 0x7f080097
 int id showTitle 0x7f080098
 int id skiDomainsContainer 0x7f0800e7
 int id skipassCountTextView 0x7f080099
+int id skipassDomainTitle 0x7f0800f4
 int id skipassStatusTitle 0x7f08009b
 int id skipassStatusTitle7 0x7f0800d1
+int id skipassTypeTitle 0x7f0800f5
 int id spacer 0x7f08009c
 int id special_effects_controller_view_tag 0x7f08009d
 int id split_action_bar 0x7f08009e
@@ -878,11 +880,13 @@ int id text 0x7f0800b3
 int id text2 0x7f0800b4
 int id textSpacerNoButtons 0x7f0800b5
 int id textSpacerNoTitle 0x7f0800b6
+int id ticketButtonsContainer 0x7f0800f6
 int id ticketCard 0x7f0800cc
 int id ticketDate 0x7f0800cd
 int id ticketStatus 0x7f0800ce
 int id ticketTitle 0x7f0800cf
 int id ticketType 0x7f0800d0
+int id ticketTypeContainer 0x7f0800f3
 int id ticketsButton 0x7f0800b7
 int id ticketsButton2 0x7f0800d2
 int id time 0x7f0800b8
@@ -954,6 +958,7 @@ int layout activity_main 0x7f0b001f
 int layout activity_more_options 0x7f0b002f
 int layout activity_skidomain 0x7f0b0030
 int layout activity_ticket_details 0x7f0b002e
+int layout activity_ticket_selection 0x7f0b0032
 int layout activity_tickets 0x7f0b0020
 int layout custom_dialog 0x7f0b0021
 int layout ime_base_split_test_activity 0x7f0b0022

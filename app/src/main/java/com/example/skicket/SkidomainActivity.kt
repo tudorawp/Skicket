@@ -51,7 +51,10 @@ class SkidomainActivity : AppCompatActivity() {
 
         // Butonul "BILETE" te duce înapoi în BuySkipassActivity
         findViewById<Button>(R.id.backToBuyButton).setOnClickListener {
-            startActivity(Intent(this, DomainTicketActivity::class.java))
+            val domainName = intent.getStringExtra("domainName")
+            val intent = Intent(this, DomainTicketActivity::class.java)
+            intent.putExtra("domain_name", domainName)
+            startActivity(intent)
             finish()
         }
 

@@ -25,5 +25,24 @@
     "ticketType": "Bilet pe puncte (100)",
     "ticketId": "RC4Y7JP2XMN1",
     "lifts": ["Telescaun", "Teleski copii", "Baby lift"]
+  },
+  {
+    "id": "4",
+    "name": "Straja",
+    "validFrom": "01.05.2025",
+    "validTo": "Până la epuizarea punctelor",
+    "ticketType": "Bilet pe puncte (100)",
+    "ticketId": "RC4Y7JP2XMN1",
+    "lifts": ["Telescaun", "Teleski copii", "Baby lift"]
+  },
+  {
+    "id": "5",
+    "name": "Azuga",
+    "validFrom": "01.01.2025 (Cu orele de funcționare 09.00 - 16.30",
+    "validTo": "10.04.2025",
+    "ticketType": "Bilet pe puncte (100)",
+    "ticketId": "RC4Y7JP2XMN1",
+    "lifts": ["Telescaun", "Teleski copii", "Baby lift"]
   }
+
 ]

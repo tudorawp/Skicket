@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#003A5A" android:padding="16dp">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#003A5A" android:padding="16dp">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,103 +15,29 @@
             android:text="Domeniu Schiabil"
             android:textColor="#87CEFA"
             android:textSize="24sp"
-            android:textStyle="bold"
+            android:textStyle="italic"
             android:background="#111111"
             android:padding="12dp"
             android:layout_marginBottom="16dp" />
 
-        <!-- Secțiune Puncte -->
+        <!-- Container pentru tipuri de bilete generate dinamic -->
         <LinearLayout
+            android:id="@+id/ticketTypeContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#111111"
-            android:padding="12dp"
-            android:layout_marginBottom="16dp">
+            android:divider="?android:attr/dividerHorizontal"
+            android:showDividers="middle"
+            android:dividerPadding="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="BILET SKIPASS CU PUNCTE"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="• Bilete de adult, copii, elev, student"
-                android:textColor="#CCFF33"
-                android:textSize="16sp"
-                android:paddingTop="8dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="• 5/10% reducere la bilet adult cumpărat cu minim 6/11 zile anticipate"
-                android:textColor="#CCFF33"
-                android:textSize="16sp"
-                android:paddingTop="4dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="• Posibile reduceri pentru anumite categorii"
-                android:textColor="#CCFF33"
-                android:textSize="16sp"
-                android:paddingTop="4dp" />
-        </LinearLayout>
-
-        <!-- Secțiune Interval Timp -->
-        <LinearLayout
+        <!-- Buton Înapoi -->
+        <Button
+            android:id="@+id/backButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="#111111"
-            android:padding="12dp"
-            android:layout_marginBottom="16dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="BILET SKIPASS PENTRU UN INTERVAL DE TIMP"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="• Bilete de adult, copii, elev, student"
-                android:textColor="#CCFF33"
-                android:textSize="16sp"
-                android:paddingTop="8dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="• 5/10% reducere la bilet adult cumpărat cu minim 6/11 zile anticipate"
-                android:textColor="#CCFF33"
-                android:textSize="16sp"
-                android:paddingTop="4dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="• Posibile reduceri pentru anumite categorii"
-                android:textColor="#CCFF33"
-                android:textSize="16sp"
-                android:paddingTop="4dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Aici se poti achiziționa skipass-uri pentru mai multe zile"
-                android:textColor="#87CEFA"
-                android:textSize="18sp"
-                android:paddingTop="12dp"
-                android:textStyle="bold" />
-        </LinearLayout>
-
+            android:layout_marginTop="12dp"
+            android:text="Înapoi"
+            android:background="#AAAAAA"
+            android:textColor="#000000" />
     </LinearLayout>
 </ScrollView>

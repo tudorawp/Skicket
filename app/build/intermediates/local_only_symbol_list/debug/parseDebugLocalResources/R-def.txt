@@ -47,14 +47,18 @@ id optionsList
 id quickMenuTitle
 id skiDomainsContainer
 id skipassCountTextView
+id skipassDomainTitle
 id skipassStatusTitle
 id skipassStatusTitle7
+id skipassTypeTitle
 id temporaryText
+id ticketButtonsContainer
 id ticketCard
 id ticketDate
 id ticketStatus
 id ticketTitle
 id ticketType
+id ticketTypeContainer
 id ticketsButton
 id ticketsButton2
 id transactionHistoryButton
@@ -67,6 +71,7 @@ layout activity_main
 layout activity_more_options
 layout activity_skidomain
 layout activity_ticket_details
+layout activity_ticket_selection
 layout activity_tickets
 menu drawer_menu
 mipmap ic_launcher

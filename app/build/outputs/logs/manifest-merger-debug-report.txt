@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Tudor\.gradle\caches\8.11.1\transforms\ed7098981dd52c8e72cfec208c38ba20\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Tudor\.gradle\caches\8.11.1\transforms\c1bb88ec6de368e30588329b02719228\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.recyclerview:recyclerview:1.4.0] C:\Users\Tudor\.gradle\caches\8.11.1\transforms\463c7774372a3f8ba98a372acc0b5dce\transformed\recyclerview-1.4.0\AndroidManifest.xml:2:1-7:12
@@ -76,8 +76,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Tudor\.
 	xmlns:android
 		ADDED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:5:5-31:19
-INJECTED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:5:5-31:19
+ADDED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:5:5-32:19
+INJECTED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:5:5-32:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Tudor\.gradle\caches\8.11.1\transforms\0cb2f959b6a2d1016b3d10066a1e100c\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Tudor\.gradle\caches\8.11.1\transforms\0cb2f959b6a2d1016b3d10066a1e100c\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Tudor\.gradle\caches\8.11.1\transforms\2a5b89a8563d558b3fb4c6ad96350926\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:22:5-26:19
@@ -162,6 +162,10 @@ activity#com.example.skicket.DomainTicketActivity
 ADDED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:30:9-58
 	android:name
 		ADDED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:30:19-55
+activity#com.example.skicket.TicketSelectionActivity
+ADDED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:31:9-61
+	android:name
+		ADDED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml:31:19-58
 uses-sdk
 INJECTED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Tudor\StudioProjects\Skicket2\app\src\main\AndroidManifest.xml
