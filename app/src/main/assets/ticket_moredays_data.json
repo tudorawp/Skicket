@@ -1,0 +1,16 @@
+{
+  "Poiana Brașov": {
+    "multiDays": [
+      "+1 Adult ",
+      "+1 Elev ",
+      "+1 Student "
+    ]
+  },
+  "Rânca": {
+    "multiDays": [
+      "+1 Copil",
+      "+1 Elev",
+      "+1 Pensionar"
+    ]
+  }
+}

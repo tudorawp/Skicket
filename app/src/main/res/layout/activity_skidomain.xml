@@ -84,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Instalații disponibile:"
-            android:textColor="#FFFFFF"
+            android:textColor="#CC0505"
             android:textSize="20sp"
             android:textStyle="bold"
             android:paddingTop="16dp" />

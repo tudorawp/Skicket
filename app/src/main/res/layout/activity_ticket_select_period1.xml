@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#003A5A">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:id="@+id/periodSelectionLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal">
+
+            <!-- TextView pentru afișarea opțiunii de bilet -->
+
+            <!-- Buton pentru setarea datei -->
+            <Button
+                android:id="@+id/setStartDateButton"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:background="#EF7A24"
+                android:text="Setează data în care vei utiliza biletul"
+                android:textColor="#FFFFFF" />
+
+            <!-- TextView pentru afișarea datei selectate -->
+
+            <!-- Buton pentru confirmare -->
+            <Button
+                android:id="@+id/confirmPeriodButton"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:background="#ACD433"
+                android:text="Adaugă în coș"
+                android:textColor="#111111" />
+
+            <!-- Buton Înapoi -->
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#AAAAAA"
+                android:text="Înapoi"
+                android:textColor="#000000" />
+            <Button android:id="@+id/goToMainButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mergi la Ecran Principal" android:background="#008CFF" android:textColor="#FFFFFF" android:layout_marginTop="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

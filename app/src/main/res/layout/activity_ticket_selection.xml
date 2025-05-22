@@ -65,6 +65,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="32dp" />
+        <Button android:id="@+id/moreDaysButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:background="#FF5722" android:text="Pentru mai multe zile" android:textColor="#111111" android:textSize="18sp" android:textStyle="bold" />
 
     </LinearLayout>
 </ScrollView>

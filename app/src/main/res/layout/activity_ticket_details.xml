@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -91,8 +92,8 @@
                     android:id="@+id/skipassStatusTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="100dp"
-                    android:text="#Tip de bilet#"
+
+                    android:text="Brasov Adult 200 Lei 40 Puncte"
                     android:textColor="#BBDEFB"
                     android:textSize="20sp"
                     tools:ignore="DuplicateIds" />
@@ -113,7 +114,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="ZZ.LL.AAAA Ora: HH:MM"
+                    android:text="10.05.2025 Ora: 09:30"
                     android:textColor="#BBDEFB"
                     android:textSize="20sp"
                     tools:ignore="DuplicateIds" />
@@ -134,7 +135,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="ZZ.LL.AAAA Ora: HH:MM"
+                    android:text="10.05.2025 Ora: 16:30"
                     android:textColor="#BBDEFB"
                     android:textSize="20sp"
                     tools:ignore="DuplicateIds" />
@@ -142,31 +143,30 @@
             </LinearLayout>
         </LinearLayout>
 
-        <Button
-            android:id="@+id/ticketsButton2"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="140dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:background="#07549B"
-            android:text="COD QR"
-            android:textColor="#FFFFFF"
-            tools:ignore="VisualLintButtonSize" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="232dp"
+            android:layout_marginBottom="10dp"
 
-        <Button
-            android:id="@+id/ticketsButton2"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="140dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:background="#07549B"
-            android:text="LOGO/EMBLEMA"
-            android:textColor="#FFFFFF"
-            tools:ignore="DuplicateIds,VisualLintButtonSize" />
+            app:srcCompat="@drawable/screenshot_2025_05_23_010416" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <!-- Replace with your actual image or remove tools:srcCompat -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:paddingBottom="8dp"
+                android:text="COD QR"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </FrameLayout>
 
         <LinearLayout
             android:layout_width="match_parent"

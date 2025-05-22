@@ -4,8 +4,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/logoskiket"
+        android:roundIcon="@drawable/logoskiket"
         android:supportsRtl="true"
         tools:targetApi="31"
         android:label="@string/app_name"
@@ -29,5 +29,10 @@
         <activity android:name=".SkidomainActivity" />
         <activity android:name=".DomainTicketActivity" />
         <activity android:name=".TicketSelectionActivity" />
+        <activity android:name=".TicketSelectMoreDaysActivity" />
+        <activity android:name=".TicketSelectPeriodActivity" />
+        <activity android:name=".TicketSelectPeriod1Activity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".CheckoutSuccessActivity" />
     </application>
 </manifest>

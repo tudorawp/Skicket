@@ -1,19 +1,21 @@
 {
   "Poiana Brașov": {
     "puncte": [
-      "+1 Adult",
-      "+1 Elev(11-14)",
-      "+1 Copil",
-      "+1 Elev (15-19)",
-      "+1 Student",
-      "+1 Pensionar",
-      "+1 Special"
+      "+1 Adult 300 lei 80 puncte",
+      "+1 Adult 250 lei 40 puncte",
+      "+1 Adult 200 lei 20 puncte",
+      "+1 Elev(11-14) 150 lei 40 puncte",
+      "+1 Copil 100 lei 40 puncte",
+      "+1 Elev (15-19) 170 lei 40 puncte",
+      "+1 Student 180 lei 40 puncte",
+      "+1 Pensionar 165 lei 40 puncte",
+      "+1 Special 90 lei 40 puncte"
     ],
     "interval": [
-      "+1 Adult",
-      "+1 Copil",
-      "+1 Student",
-      "+1 Senior"
+      "+1 Adult 280 lei",
+      "+1 Copil 180 lei",
+      "+1 Student 260 lei",
+      "+1 Senior 250 lei"
     ]
   },
   "Transalpina": {
@@ -32,8 +34,8 @@
     "interval": [
       "+1 Vizitator",
       "+1 Student",
-      "+1 Senior",
-      "+1 Neangajat 💔💔"
+      "+1 Senior"
+
     ]
   },
   "Rânca": {

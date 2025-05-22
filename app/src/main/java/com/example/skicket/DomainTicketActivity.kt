@@ -65,8 +65,18 @@ class DomainTicketActivity : AppCompatActivity() {
                         setTextColor(0xFFFFFFFF.toInt())
                         setPadding(0, 0, 0, 16)
                         setTypeface(null, android.graphics.Typeface.BOLD)
+                        setBackgroundColor(0xFF07549B.toInt())
+                        setTextAlignment(TextView.TEXT_ALIGNMENT_CENTER)
+                        isClickable = true
+                        isFocusable = true
                         setOnClickListener {
-                            val intent = Intent(this@DomainTicketActivity, TicketSelectionActivity::class.java)
+                            val intent = if (type.equals("interval_multe_zile", ignoreCase = true)) {
+                                Intent(this@DomainTicketActivity, TicketSelectMoreDaysActivity::class.java)
+                            } else {
+                                // Pentru toate celelalte tipuri, inclusiv "o_singura_zi"
+                                // și orice alte tipuri care ar putea fi adăugate
+                                Intent(this@DomainTicketActivity, TicketSelectionActivity::class.java) // Modificat pentru a include și "o_singura_zi"
+                            }
                             intent.putExtra("ticket_type", type)
                             intent.putExtra("domain_name", domainName)
                             startActivity(intent)

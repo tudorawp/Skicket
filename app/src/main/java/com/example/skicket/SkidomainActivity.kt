@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import org.json.JSONArray
 import org.json.JSONObject
@@ -40,10 +41,10 @@ class SkidomainActivity : AppCompatActivity() {
                 val liftName = lifts.getString(i)
                 val textView = TextView(this).apply {
                     text = liftName
-                    setTextColor(resources.getColor(android.R.color.holo_blue_light))
+                    setTextColor(resources.getColor(android.R.color.holo_blue_bright))
                     textSize = 18f
                     setPadding(10, 10, 10, 10)
-                    setBackgroundColor(resources.getColor(android.R.color.darker_gray))
+                    setBackgroundColor(resources.getColor(android.R.color.transparent))
                 }
                 liftListContainer.addView(textView)
             }
@@ -63,6 +64,12 @@ class SkidomainActivity : AppCompatActivity() {
             startActivity(Intent(this, BuySkipassActivity::class.java))
             finish()
         }
+
+        val locationButton = findViewById<Button>(R.id.locationButton)
+        locationButton.setOnClickListener {
+            Toast.makeText(this, "🙊COMING SOON🙊", Toast.LENGTH_SHORT).show()
+        }
+
     }
 
     private fun loadJSONFromAssets(filename: String): String {

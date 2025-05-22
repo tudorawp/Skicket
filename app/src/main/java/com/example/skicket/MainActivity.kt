@@ -120,6 +120,11 @@ class MainActivity : AppCompatActivity() {
  val intent = Intent(this, MoreOptionsActivity::class.java)
             startActivity(intent)
         }
+        val openCartButton = findViewById<Button>(R.id.openCartButton)
+        openCartButton.setOnClickListener {
+            val intent = Intent(this, CartActivity::class.java)
+            startActivity(intent)
+        }
         // *********************************************************
     }
     // Poți adăuga aici și alte metode necesare pentru MainActivity

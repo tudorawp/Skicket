@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:gravity="center" android:padding="24dp" android:background="#003A5A" android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/selected_option_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opțiune selectată"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/setStartDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setează începutul"
+        android:background="#07549B"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/setEndDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setează sfârșitul"
+        android:background="#07549B"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="266dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="12dp"
+        android:background="#ACD433"
+        android:text="Confirmă perioada"
+        android:textColor="#111111" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:background="#FF4444"
+        android:text="Înapoi"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/goToMainButton"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#FF9800"
+        android:text="Mergi la Ecran Principal"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
