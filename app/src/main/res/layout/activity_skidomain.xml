@@ -69,17 +69,18 @@
         </LinearLayout>
 
         <!-- Perioadă funcționare -->
+
+        <!-- Titlu instalații -->
         <TextView
             android:id="@+id/operatingPeriodText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Valabil: --"
-            android:textColor="#87CEFA"
-            android:textSize="18sp"
             android:paddingTop="12dp"
-            android:paddingBottom="8dp" />
+            android:paddingBottom="8dp"
+            android:text="Orar de lucru : --"
+            android:textColor="#87CEFA"
+            android:textSize="18sp" />
 
-        <!-- Titlu instalații -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

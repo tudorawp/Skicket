@@ -2,8 +2,9 @@
   {
     "id": "1",
     "name": "Poiana Brașov",
-    "validFrom": "03.01.2025 08:30",
-    "validTo": "03.01.2025 17:00",
+    "validFrom": "\nSe deschide de la ora 08:30\n",
+
+    "validTo": "\nUltima urcare la ora 17:00",
     "ticketType": "Bilet pe zi",
     "ticketId": "PB8F3KD7LZQ2",
     "lifts": ["Gondola Express", "Teleski Lupului", "Telescaun Kanzel"]
