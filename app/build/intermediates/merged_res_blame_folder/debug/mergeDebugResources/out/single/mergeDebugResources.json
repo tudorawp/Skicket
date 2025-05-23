@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Tudor\\.gradle\\daemon\\8.11.1\\com.example.skicket.app-main-55:\\layout\\activity_ticket_selection.xml"
     },
     {
-        "merged": "com.example.skicket.app-debug-53:/layout_activity_skidomain.xml.flat",
-        "source": "com.example.skicket.app-main-55:/layout/activity_skidomain.xml"
-    },
-    {
         "merged": "C:\\Users\\Tudor\\.gradle\\daemon\\8.11.1\\com.example.skicket.app-debug-53:\\layout_activity_ticket_select_moredays.xml.flat",
         "source": "C:\\Users\\Tudor\\.gradle\\daemon\\8.11.1\\com.example.skicket.app-main-55:\\layout\\activity_ticket_select_moredays.xml"
+    },
+    {
+        "merged": "com.example.skicket.app-debug-53:/layout_activity_ticket_select_period.xml.flat",
+        "source": "com.example.skicket.app-main-55:/layout/activity_ticket_select_period.xml"
     },
     {
         "merged": "C:\\Users\\Tudor\\.gradle\\daemon\\8.11.1\\com.example.skicket.app-debug-53:\\drawable_ic_launcher_foreground.xml.flat",

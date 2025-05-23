@@ -25,16 +25,16 @@
     <string name="bilete">Bilete</string>
     <string name="biletele_mele">Biletele mele</string>
     <string name="biletele_mele1">Biletele mele</string>
-    <string name="cump_r_skipass">Domenii Schiabile</string>
+    <string name="cump_r_skipass">⛷️Domenii Schiabile⛷️</string>
     <string name="cumpara_skipass">Cumpară skipass</string>
-    <string name="data_11_mai_2025">Data: 11 mai 2025</string>
+    <string name="data_11_mai_2025">Data: 23 mai 2025</string>
     <string name="domeniu_schiabil_1">Domeniu schiabil #1</string>
     <string name="domeniu_schiabil_2">Domeniu schiabil #2</string>
     <string name="domeniu_schiabil_3">Domeniu schiabil #3</string>
     <string name="domeniu_schiabil_4">Domeniu schiabil #4</string>
     <string name="informa_ii">Informații</string>
-    <string name="informa_iii">Informații</string>
-    <string name="informatii">Informatii\n</string>
+    <string name="informa_iii">💡Informații</string>
+    <string name="informatii">Informatii</string>
     <string name="istoric_tranzac_ii">Istoric tranzacții</string>
     <string name="istoric_tranzac_ii1">Istoric Tranzacții</string>
     <string name="logo_skicket">LOGO SKICKET</string>
@@ -43,12 +43,12 @@
     <string name="nume_prenume">Nume Prenume</string>
     <string name="nume_prenume1">Bine ai venit pe Skicket!
         </string>
-    <string name="skipass_poiana_bra_ov">Skipass – Poiana Brașov</string>
+    <string name="skipass_poiana_bra_ov">Skipass – Brașov </string>
     <string name="status_activ">Status: Activ</string>
     <string name="status_skipass">Status Skipass</string>
     <string name="status_skipass1">Status skipass</string>
     <string name="temporary_message"/>
-    <string name="tip_1_zi_adult">Tip: 1 zi – Adult</string>
+    <string name="tip_1_zi_adult">Tip: Adult 200 Lei 40 Puncte</string>
     <string name="title_buy_skipass">Buy Skipass</string>
     <string name="ultima_sincronizare_zz_ll_aaaa_ora_mm_ss">Ultima sincronizare: ZZ.LL.AAAA Ora:MM:SS</string>
     <string name="ultima_sincronizare_zz_ll_aaaa_ora_mm_sss">Managerul tău de bilete Skipass!</string>

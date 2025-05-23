@@ -51,7 +51,7 @@
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
                      android:background="@android:color/transparent"
-                     android:text="Bilete"
+                     android:text="Biletele mele"
                      android:textColor="#FFFFFF"
                      tools:ignore="HardcodedText,TouchTargetSizeCheck" />
             </LinearLayout>
@@ -93,7 +93,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="Brasov Adult 200 Lei 40 Puncte"
+                    android:text="🎟️ Brasov Adult 200 Lei 40 Puncte"
                     android:textColor="#BBDEFB"
                     android:textSize="20sp"
                     tools:ignore="DuplicateIds" />
@@ -114,7 +114,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="10.05.2025 Ora: 09:30"
+                    android:text="23.05.2025 Ora: 09:30"
                     android:textColor="#BBDEFB"
                     android:textSize="20sp"
                     tools:ignore="DuplicateIds" />
@@ -135,7 +135,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="10.05.2025 Ora: 16:30"
+                    android:text="23.05.2025 Ora: 16:30"
                     android:textColor="#BBDEFB"
                     android:textSize="20sp"
                     tools:ignore="DuplicateIds" />
@@ -163,7 +163,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|center_horizontal"
                 android:paddingBottom="8dp"
-                android:text="COD QR"
+                android:text="📸COD QR📸"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp" />
         </FrameLayout>

@@ -35,7 +35,7 @@
         android:layout_height="82dp"
         android:layout_marginBottom="12dp"
         android:background="#ACD433"
-        android:text="Confirmă perioada"
+        android:text="✅ Confirmă perioada ✅"
         android:textColor="#111111" />
 
     <Button
@@ -43,7 +43,7 @@
         android:layout_width="158dp"
         android:layout_height="wrap_content"
         android:background="#FF4444"
-        android:text="Înapoi"
+        android:text="⬅️ Înapoi ⬅️"
         android:textColor="#FFFFFF" />
 
     <Button
