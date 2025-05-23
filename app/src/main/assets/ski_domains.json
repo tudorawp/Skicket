@@ -44,6 +44,15 @@
     "ticketType": "Bilet pe puncte (100)",
     "ticketId": "RC4Y7JP2XMN1",
     "lifts": ["Telescaun", "Teleski copii", "Baby lift"]
+  },
+  {
+    "id": "6",
+    "name": "Domeniu custom",
+    "validFrom": "Cu orele de funcționare 09.00 - 16.30",
+    "validTo": "10.04.2025",
+    "ticketType": "Bilet pe puncte (100)",
+    "ticketId": "RC4Y7JP2XMN1",
+    "lifts": ["Pe jos??", "Sistem de cablu baby", "Baby lift"]
   }
 
 ]

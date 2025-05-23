@@ -20,10 +20,6 @@
         "source": "C:\\Users\\Tudor\\.gradle\\daemon\\8.11.1\\com.example.skicket.app-main-55:\\layout\\activity_ticket_select_moredays.xml"
     },
     {
-        "merged": "com.example.skicket.app-debug-53:/layout_activity_ticket_select_period.xml.flat",
-        "source": "com.example.skicket.app-main-55:/layout/activity_ticket_select_period.xml"
-    },
-    {
         "merged": "C:\\Users\\Tudor\\.gradle\\daemon\\8.11.1\\com.example.skicket.app-debug-53:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Tudor\\.gradle\\daemon\\8.11.1\\com.example.skicket.app-main-55:\\drawable\\ic_launcher_foreground.xml"
     },
@@ -58,6 +54,10 @@
     {
         "merged": "C:\\Users\\Tudor\\.gradle\\daemon\\8.11.1\\com.example.skicket.app-debug-53:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Tudor\\.gradle\\daemon\\8.11.1\\com.example.skicket.app-main-55:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.skicket.app-debug-53:/layout_activity_main.xml.flat",
+        "source": "com.example.skicket.app-main-55:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Tudor\\.gradle\\daemon\\8.11.1\\com.example.skicket.app-debug-53:\\layout_activity_history.xml.flat",

@@ -89,7 +89,7 @@
         <TextView
             android:id="@+id/lastSyncTextView"
             android:layout_width="wrap_content"
-            android:layout_height="51dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="@string/ultima_sincronizare_zz_ll_aaaa_ora_mm_sss"
             android:textColor="#AAAAAA"

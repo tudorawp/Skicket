@@ -65,5 +65,20 @@
         "type": "Cu Puncte"
       }
     ]
+  },
+  {
+    "domainName": "Domeniu custom",
+    "tickets": [
+      {
+        "title": "SKIPASS Interval de timp",
+        "description": ["Pentru intervalele de timp: 09.00 - 17.00"],
+        "type": "Interval de timp"
+      },
+      {
+        "title": "SKIPASS Cu Puncte",
+        "description": ["Skipass pe Puncte este valabil intre orele 09.00 - 16.30"],
+        "type": "Cu Puncte"
+      }
+    ]
   }
 ]
